@@ -48,6 +48,9 @@
     .about-containers {
       margin-top: 0;
     }
+    #projects {
+      height: fit-content;
+    }
   }
   
   @media screen and (max-width: 600px) {
@@ -102,5 +105,8 @@
     }
     .text-container {
       text-align: justify;
+    }
+    #projects {
+      height: fit-content;
     }
   }
