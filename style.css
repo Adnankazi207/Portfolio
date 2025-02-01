@@ -439,81 +439,57 @@ article .icon {
 }
 
 /* bckdfsbjvdb */
-#contact- {
+
+.container {
   display: flex;
   justify-content: center;
-  flex-direction: column;
-  height: 10vh;
-  margin-top: 50px;
-  width: 800px;
-}
-
-
-.contact-info-upper-container- {
-  display: flex;
-  justify-content: center;
-  border-radius: 1rem;
-  border: 0.1rem solid rgb(163, 163, 163);
-  background: rgb(250, 250, 250);
-  margin: 2rem auto;
-  padding: 1rem;
-  width: 400px; /* Reduced width */
-  max-width: 1000px; /* Smaller width */
-  height: auto; /* Auto height based on content */
-}
-
-.contact-form {
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-  width: 100%;
-}
-
-.contact-info-container- {
-  display: flex;
-  flex-direction: column;
   align-items: flex-start;
+  gap: 40px;
+  padding: 40px;
 }
 
-.contact-info-container- label {
-  font-size: 15px; /* Smaller font size for labels */
-  margin-bottom: 0.2rem; /* Adjusted margin for labels */
-}
-
-.contact-info-container- input,
-.contact-info-container- textarea {
+.form-container{
+  background-color: #abaaaa;
+  padding: 20px;
+  border-radius: 20px;
   width: 400px;
-  padding: 0.5rem; /* Reduced padding for smaller inputs */
-  font-size: 0.9rem; /* Smaller font size */
-  border-radius: 0.5rem;
-  border: 0.1rem solid rgb(163, 163, 163);
+  padding-right: 40px;
 }
 
-.contact-info-container- textarea {
-  height: 80px; /* Reduced height for textarea */
+h2 {
+  margin-bottom: 20px;
+  color: black;
+  font-size: 30px;
 }
 
-.contact-info-container- button {
-  padding: 0.6rem; /* Smaller padding for button */
-  background: rgb(77, 76, 76);
-  color: white;
+form input,
+form textarea {
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 10px;
   border: none;
-  border-radius: 0.5rem;
-  cursor: pointer;
-  font-size: 0.9rem; /* Smaller button text */
+  border-radius: 5px;
 }
 
-.contact-info-container- button:hover {
+form button {
+  width: 100%;
+  padding: 10px;
   background: rgb(53, 53, 53);
   color: white;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
 }
 
-@media (max-width: 768px) {
-  .contact-info-upper-container {
-    padding: 20px;
-  }
+.placeholder{
+  font-size: 15px;
 }
 
+form button:hover {
+  background-color: black;
+}
 
 
 /* FOOTER SECTION */

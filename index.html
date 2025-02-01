@@ -6,6 +6,16 @@
     <title>My Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="mediaqueries.css">
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+    <script type="text/javascript">
+      (function(){
+      emailjs.init({
+        publicKey: "wD2e5K6vyDIUA--Zt",
+      });
+   })();
+    </script>
 </head>
 <body>
     <nav id="desktop-nav">
@@ -231,7 +241,7 @@
           src="./assets/arrow.png"
           alt="Arrow icon"
           class="icon arrow"
-          onclick="location.href='#certificate'"
+          onclick="location.href='#certificates'"
         />
       </section>
       <hr/>
@@ -386,6 +396,30 @@
         <h1 class="title">Contact Me</h1>
 
 
+        <!-- <div class="container">
+          <div class="form-container">
+            <h2>Write us</h2>
+            <form id="contact-form" action="https://formsubmit.co/adnankazi0707@gmail.com" method="POST">
+              <input type="hidden" name="_next" value="http://127.0.0.1:5500/?name=ADNAN+KAZI&email=adnankazi0707%40gmail.com&subject=befuew&message=bycg3ed3y34y#contact">
+              <input type="text" name="name" id="name" placeholder="Name" required class="placeholder" >
+              <input type="email" name="email" id="email" placeholder="Email" required class="placeholder">
+              <textarea name="message" id="message" placeholder="Message" rows="5" required class="placeholder"></textarea>
+              <button type="submit">Send Message</button>
+            </form>
+          </div>
+          </div> -->
+
+          <div class="container">
+            <div class="form-container">
+              <h2>Write us</h2>
+              <form id="contact-form">
+                <input type="text" name="from_name" id="from_name" placeholder="Name" required>
+                <input type="email" name="from_email" id="from_email" placeholder="Email" required>
+                <textarea name="message" id="message" type="message" placeholder="Message" rows="5" required></textarea>
+                <button type="submit">Send Message</button>
+              </form>
+            </div>
+          </div>
 
         <div class="contact-info-upper-container">
           <div class="contact-info-container">
@@ -406,33 +440,6 @@
           </div>
         </div>
 
-         <!-- ehewvewv -->
-         <div class="contact-" id="contact">
-          <div class="contact-info-upper-container">
-            <form action="https://formsubmit.co/adnankazi0707@gmail.com" method="POST" class="contact-form">
-              <h2>Contact Us</h2>
-              
-              <div class="contact-info-container-">
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" placeholder="Your Name" required />
-              </div>
-        
-              <div class="contact-info-container-">
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" placeholder="Your Email" required />
-              </div>
-        
-              <div class="contact-info-container-">
-                <label for="message">Message:</label>
-                <textarea id="message" name="message" placeholder="Your Message" required></textarea>
-              </div>
-        
-              <div class="contact-info-container-">
-                <button type="submit">Submit</button>
-              </div>
-            </form>
-          </div>
-        </div>
         
         
       </section>
