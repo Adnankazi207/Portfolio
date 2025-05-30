@@ -57,7 +57,13 @@
   @media screen and (max-width: 600px) {
     #contact,
     footer {
-      height: 40vh;
+      height: 8vh;
+    }
+    #footer{
+       background-color: rgb(233, 230, 230);
+    }
+    #hamburger-nav{
+       background-color: rgb(244, 244, 244);
     }
     #profile {
       height: 83vh;
